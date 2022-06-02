@@ -1,0 +1,58 @@
+.profile_image {
+  height: 50%;
+}
+body {
+  background-image: url('bg11.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card11 {
+    background: rgb(0 0 0 / 54%);
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+
+.card22 {
+    background: #0000001f;
+    backdrop-filter: blur(10px);
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.loading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingfalse {
+  display: none;
+}
+
+.input {
+  outline: none;
+  background: #0f1a2e75;
+  border: solid;
+  border-width: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: medium;
+  padding: 3px;
+  color: white;
+  border-color: #27344D;
+  box-shadow: 0px 3px 0px 0px #27344D;
+  transition: .1s ease-in-out;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 transparent;
+  padding: 2px
+}
+
